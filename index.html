@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Exercicio para a aula dia 28-03</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -8,17 +9,68 @@
 </head>
 
 <body background-color="#90caf9">
-
     <nav>
         <div class="nav-wrapper blue">
-          <a href="#" class="brand-logo">Logo</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down blue">
-            <li><a href="sass.html">Blog</a></li>
-            <li><a href="badges.html">Contatos</a></li>
-            <li><a href="collapsible.html">@seutwitter</a></li>
-          </ul>
+            <a href="#" class="brand-logo">Início</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down blue">
+                <li><a href="sass.html">Blog</a></li>
+                <li><a href="badges.html">Contatos</a></li>
+                <li><a href="collapsible.html">@seutwitter</a></li>
+            </ul>
         </div>
-      </nav> 
+        </nav>
+    <div class="container">
+
+        <div id="apresentacao" class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="row valign-wrapper">
+                <div class="col s1">
+                    <img src="src/img/foto-perfil.jpeg" alt="" class="responsive-img">
+                </div>
+                <div class="col s8">
+              <span class="black-text">
+                Me chamo Fellipe, tenho 20 anos, atualmente trabalho como desenvolvedor RPA na empresa Roboteasy.
+              </span>
+                </div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <th rowspan="3">Posts Recentes</th>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>02/04/2022</td>
+                    <td>Animais em extinção</td>
+                    <td><a class="btn-floating btn-large waves-effect waves-light blue lighten-2" href="noticia1.html"><i class="material-icons">+</i></a></td>
+                </tr>
+                <tr>
+                    <td>01/04/2022</td>
+                    <td>O perigo da fome no mundo</td>
+                    <td><a class="btn-floating btn-large waves-effect waves-light blue lighten-2" href="noticia2.html"><i class="material-icons">+</i></a></td>
+                </tr>
+                <tr>
+                    <td>31/03/2022</td>
+                    <td>Aquecimento global</td>
+                    <td><a class="btn-floating btn-large waves-effect waves-light blue lighten-2" href="noticia3.html"><i class="material-icons">+</i></a></td>
+                </tr>
+                <tr>
+                    <td>30/03/2022</td>
+                    <td>O fim da última colheita de milho</td>
+                    <td><a class="btn-floating btn-large waves-effect waves-light blue lighten-2" href="noticia3.html"><i class="material-icons">+</i></a></td>
+                </tr>
+            </tbody>
+        </table>
 
 
+        <div class="col s1">
+            <h4><a href="#apresentacao">Início</a></h4>
+            <h4><a href="#apresentacao">Blog</a></h4>
+            <h4><a href="#apresentacao">Contatos</a></h4>
+        </div>
+
+        <h6>Copyright © Fellipe Wyllyan Schenekemberg</h6>
+    </div>
 </body>
